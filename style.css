@@ -1,0 +1,157 @@
+body{
+    margin: 0;
+    background-image:url(img/background.png);
+}
+
+@font-face {
+  font-family: 'Courgette';
+  src: url('Courgette-Regular.ttf');
+}
+p{
+  font-family: Arial, sans-serif;
+}
+#myTopnav{
+    width: 100%;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #C55394;
+  overflow: hidden;
+}
+
+#myTopnav .MyUnicorn{
+  float: left;
+}
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: right;
+  display: block;
+  color: #FFF;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: Arial, sans-serif;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #EB43A3;
+  color: #FFF;
+}
+
+/* Add an active class to highlight the current page */
+.topnav a.active {
+  background-color: #EB43A3;
+  color: #FFF;
+}
+
+.contentRainbow{
+  position:relative; 
+  height:135px;
+}
+.divTitre{
+  position: absolute;
+  top: 48px;
+  width: 1400px;
+  font-size: 200%; 
+}
+.titre{
+  text-align: center;
+  font-style: italic;
+  color:#C55394;
+  font-family: 'Courgette', cursive;
+}
+
+.rainbow{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+}
+
+/** Card**/
+
+.card {
+  box-shadow: 0px 0px 6px 4px rgb(0 0 0 / 20%);
+  transition: 0.3s;
+  border-radius: 5px;
+  background-color: #FFF;
+  margin: 10px 22px;
+  padding: 0 10px;
+}
+.card .container{
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.card h4{
+  color: #EB43A3;
+  padding-top: 25px;
+  font-style: italic;
+  font-family: 'Courgette', cursive;
+}
+.card p{
+  text-align: justify;
+  font-family: Arial, sans-serif;
+}
+
+.card .container figure {
+  display: inline-flex;
+  flex-flow: column;
+  padding: 5px;
+  margin: auto;
+}
+
+figcaption {
+  background-color: #333;
+  color: #fff;
+  padding: 0px;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+}
+
+.card .container .column {
+  float: left;
+  width: 50%;
+  font-family: 'Arial', sans-serif;
+}
+
+  .card .container .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.row .autresTitre{
+    color: #EB43A3;
+}
+
+.button{
+  background-color: #C55394;
+  color: #FFF;
+  cursor: pointer;
+  border-radius: 3px;
+  border: none;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  width: 11%;
+  }
+/** footer**/
+.footer {
+  display:block;
+  position: absolute;
+  left: 0;
+  right:0;
+  width: 100%;
+  background-color: #E577B5;
+}
+.footer p{
+    color: #FFF;
+    text-align: right;
+    padding: 0px 16px;
+    font-family: Arial, sans-serif;
+}
+
+

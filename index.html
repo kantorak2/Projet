@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <!-- Menu -->
+    <div class="topnav" id="myTopnav">
+        <a href="#" class="MyUnicorn">MyUnicorn</a>
+        <a href="#nous-trouver">Nous trouver</a>
+        <a href="#nos-licornes">Nos licornes</a>
+        <a href="#le-principe" class="active">Le principe</a>
+    </div>
+    <!-- Menu -->
+
+    <!-- Arc en ciel -->
+
+    <div class="contentRainbow">
+        <div>
+            <img src="img/rainbow.png" class="rainbow">
+        </div>
+        <div class="divTitre">
+            <p class="titre">Un jour, une licorne</p>
+        </div>
+    </div>
+
+    <!-- Arc en ciel -->
+
+    <!-- Contenu-->
+    <div class="card">
+        <div class="container">
+
+          <h4 id="le-principe" > <i class="fa-star-o"></i> Le principe</h4>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In dictum dapibus ante, eu aliquam ante euismod eleifend. Ut malesuada augue ut luctus pellentesque. Aenean id varius ipsum. Nunc malesuada ex ut ipsum interdum vestibulum. Integer facilisis finibus orci, sit amet pretium diam placerat vitae. Nunc auctor tincidunt mollis. Nullam quis turpis sed lorem elementum semper eget semper risus. In nec mauris aliquam, congue metus euismod, cursus leo. Vivamus laoreet commodo leo, ut cursus justo blandit in. Aenean pretium mi a auctor pulvinar. Mauris sodales sollicitudin sodales. Sed mollis sed lectus id facilisis. Quisque pharetra a purus eget porttitor. Proin rhoncus risus non mauris iaculis sodales. Pellentesque euismod dui erat, non sodales ipsum sollicitudin sed.
+                <br><br> Donec nisi eros, luctus id pretium eget, consequat elementum risus. Fusce eleifend lacinia orci eu iaculis. Vestibulum vestibulum justo quis commodo congue. Aliquam purus leo, dictum in nisl at, pellentesque bibendum mi. Nulla convallis mi eget nisl convallis dictum. Vestibulum a massa lacus. Aenean quis enim diam.</p>
+    
+           <h4 id="nos-licornes"> <i class="fa-star-o"></i> Nos licornes</h4>
+                <figure>
+                        <img src="img/unicorns/photo1.jpg" class="unicorns">
+                        <figcaption>Lulu Confetty</figcaption>
+                </figure>
+
+                <figure>
+                        <img src="img/unicorns/photo2.jpg" class="unicorns">
+                        <figcaption>Lapillon Magik</figcaption>
+                </figure>
+
+                <figure>
+                        <img src="img/unicorns/photo3.jpg" class="unicorns">
+                        <figcaption>El Ninjacorn</figcaption>
+                </figure>
+
+                <figure>
+                        <img src="img/unicorns/photo4.jpg" class="unicorns">
+                        <figcaption> Sweety Candy</figcaption>
+                </figure>
+           
+           <h4 id="nous-trouver"> <i class="fa-star-o"></i> Nous trouver</h4>
+
+            <div class="row">
+                <div class="column">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15098.140708824092!2d47.5262321!3d-18.9076913!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4c1b3b6f62c45fa2!2sAnalakely%20Market!5e0!3m2!1sfr!2smg!4v1644534439944!5m2!1sfr!2smg" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    <br><br>
+                </div>
+                <div class="column">
+                    <h4>Notre élevage de licornes est situé au :</h4>
+                        Analakely Market<br>
+                        Arabe Rahezavana, Antananarivo, Madagascar<br>
+                        01.22.45.67.90<br>
+
+                    <h4>Newsletter</h4>
+                    Abonnez-vous simplement à notre newsletter mensuelle ! <br><br>
+
+                    <form name="form" action="newsletter.php">
+                        <input type="email" id="mail" name="mail" placeholder="votre@email.fr" required="required"> <br><br>
+                        <input type="submit" name="submit" value="Valider" class="button"onclick="ValidateEmail(document.form.mail)"/>
+                        <br><br>
+                    </form>
+
+                </div>
+           </div>
+        </div>
+    </div>
+    <!-- Contenu-->
+    <script src="email-validation.js"></script>
+    <!-- Footer -->
+    <footer>
+        <div class="footer">
+            <p>2016 &copy; WebForce3</p>
+        </div>
+    </footer>
+    <!-- Footer -->
+</body>
